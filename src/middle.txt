@@ -1,0 +1,238 @@
+ <div className="w-full relative">
+          {/* Image */}
+        <img
+        src="building.jpg" // Ensure this path is correct relative to your public folder or assets
+        alt="Sample"
+      />
+
+      {/* Text Overlay */}
+      <div className="top-10 left-0 p-10 text-white absolute">
+        <h2 className="text-5xl">COMPANY NAME</h2>
+        <h2 className="font-bold text-5xl">CONSTRUCTION</h2>
+        <h2 className="font-bold text-5xl">COMPANY</h2>
+
+            
+      <div className= 'w-[680px] mx-auto top-0 left-0' >
+        <p className="text-2xl mt-4">
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br/>
+unknown printer took a galley of type and scrambled it to make a type specimen book. It has<br/> 
+survived not only five centuries, but also the leap into this.
+        </p>
+      </div>
+  
+      <div>
+        <button className="bg-amber-600 mx-auto top-0 left-0 p-4 rounded-2xl m-20 text-2xl w-75 font-bold text-left " type="button">
+          See Details
+        </button>
+        
+      </div>
+
+
+
+
+
+
+      </div>
+
+
+
+
+    </div>    
+
+
+
+
+      <div className="flex w-full mx-auto p-10  mt-20 mb-20"> 
+        {/* flex container with horizontal layout, centered with max width, padding and gap between */}
+
+        {/* Left text block */}
+        <div className="flex-1">
+          <h1 className="  text-3xl  mb-6 text-amber-300 ">Lorem Ipsum</h1>
+          <h2 className="text-6xl mb-6">
+            Lorem Ipsum<br />
+            has been the industry
+          </h2>
+          <p className="mb-6 text-2xl">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+          </p>
+          <p className="mb-6 text-2xl" >
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+          </p>
+          <p className="mb-6 text-2xl">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+          </p>
+          <p className="mb-6 text-2xl">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+          </p>
+        </div>
+
+        {/* Right image block */}
+        <div className="flex-1 pl-10 ">
+          <img src="/Image.png" alt="Description" className="w-full object-contain " />
+        </div>
+    
+    </div>
+
+      
+
+    
+  <div className="w-full bg-[#001F40] text-white p-6">
+
+    <p className='text-center text-xl' >Lorem</p>
+    <h1 className='text-center text-xl' >Lorem Ipsium</h1>
+    <br/>
+    <br/>
+    <p className='text-center text-xl ' >Lorem Ipsum has been the industry's standard dummy text
+</p>
+
+    <br/>
+    <br/>
+
+
+
+
+<div className="flex w-full mx-auto p-20 gap-10">
+  {/* Left image block with text below */}
+  <div className="flex-1 flex flex-col justify-start">
+    <img src="/Image.png" alt="Left" className="max-w-full max-h-[600px] object-contain" />
+    <br/>
+    <h2 className="text-xl text-center">Lorum has</h2>
+    <br/>
+    <h2 className="text-5xl text-center">Lorum</h2>
+
+  </div>
+
+  {/* Middle image block - drop it lower with pt-10 */}
+  <div className="flex-1 flex flex-col justify-start pt-10">
+    <img src="/Image.png" alt="Middle" className="max-w-full max-h-[600px] object-contain" />
+        <br/>
+    <h2 className="text-xl text-center">Lorum has</h2>
+    <br/>
+    <h2 className="text-5xl text-center">Lorum</h2>
+  </div>
+
+  {/* Right image block */}
+  <div className="flex-1 flex flex-col justify-start">
+    <img src="/Image.png" alt="Right" className="max-w-full max-h-[600px] object-contain" />
+    <br/>
+    <h2 className="text-xl text-center">Lorum has</h2>
+    <br/>
+    <h2 className="text-5xl text-center">Lorum</h2>  </div>
+</div>
+
+
+
+
+
+    
+
+
+
+</div>
+
+
+
+    <div className="w-full  text-black p-6">
+    <p className='text-center text-2xl text-amber-400 p-4'  >Lorem Ipsum has</p>
+    <h1 className='text-center text-7xl text-black ' >Lorem Ipsum has been the industry's</h1>
+    
+    
+<div className="flex flex-col items-center space-y-6 p-10 mt-7">
+  {/* Row 1 */}
+  <div className="flex w-full max-w-5xl space-x-6">
+    <input
+      type="text"
+      placeholder="Input 1"
+      className="flex-1 bg-stone-100 text-stone-400 p-5 rounded text-xl"
+    />
+    <input
+      type="text"
+      placeholder="Input 2"
+      className="flex-1 bg-stone-100 text-stone-400 p-5 rounded text-xl"
+    />
+  </div>
+
+  {/* Row 2 */}
+  <div className="flex w-full max-w-5xl space-x-6">
+    <input
+      type="text"
+      placeholder="Input 3"
+      className="flex-1 bg-stone-100 text-stone-400 p-5 rounded text-xl"
+    />
+    <input
+      type="text"
+      placeholder="Input 4"
+      className="flex-1 bg-stone-100 text-stone-400 p-5 rounded text-xl "
+    />
+  </div>
+</div>
+
+<div className="flex flex-col items-center justify-center my-10"> 
+  <button
+    className="bg-amber-600 px-6 py-8 rounded-2xl text-3xl w-72 text-white hover:bg-amber-700 text-center"
+    type="button"
+  >
+    LOREUM HAS
+  </button>
+
+  <img src="video.png" alt="background" className="mt-6" />
+</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    
+  <div className="w-full bg-[#001F40] text-white p-6">
+
+    <p className='text-center text-xl' >Lorem</p>
+    <h1 className='text-center text-xl' >Lorem Ipsium</h1>
+    <br/>
+    <br/>
+    <p className='text-center text-xl ' >Lorem Ipsum has been the industry's standard dummy text
+</p>
+
+    <br/>
+    <br/>
+
+
+
+
+<div className="flex w-full mx-auto p-20 gap-10">
+  {/* Left image block with text below */}
+  <div className="flex-1 flex flex-col justify-start">
+    <img src="/Image.png" alt="Left" className="max-w-full max-h-[600px] object-contain" />
+    <br/>
+    <h2 className="text-xl text-center">Lorum has</h2>
+    <br/>
+    <h2 className="text-5xl text-center">Lorum</h2>
+
+  </div>
+
+  {/* Middle image block - drop it lower with pt-10 */}
+  <div className="flex-1 flex flex-col justify-start pt-10">
+    <img src="/Image.png" alt="Middle" className="max-w-full max-h-[600px] object-contain" />
+        <br/>
+    <h2 className="text-xl text-center">Lorum has</h2>
+    <br/>
+    <h2 className="text-5xl text-center">Lorum</h2>
+  </div>
+
+  {/* Right image block */}
+  <div className="flex-1 flex flex-col justify-start">
+    <img src="/Image.png" alt="Right" className="max-w-full max-h-[600px] object-contain" />
+    <br/>
+    <h2 className="text-xl text-center">Lorum has</h2>
+    <br/>
+    <h2 className="text-5xl text-center">Lorum</h2>  </div>
+</div>
+
+
+   </div> 

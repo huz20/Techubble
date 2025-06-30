@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: 'MontserratVar';
+  src: url('./assets/myfonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* enables range of weights */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/myfonts/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font {
+  font-family: 'myfont', M;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.text-lightgray {
+  color: #D9D9D9;
+}
+
+.bg-lightblue {
+  background-color: #4BB0E6;
+}
+
+.text-lightblue {
+  color: #4BB0E6;
+}
+
+.text-greyshade {
+  color: #616161;
+}
+
+.border-greyshade {
+  border-color: #616161;
+}
+
+.bg-greyshade {
+  background-color: #F7FCFF33;
+}
+
+.bg-completebackground {
+  color: #F5F5F5;
+}
+
+.text-headertext {
+  color: #404040;
+}
