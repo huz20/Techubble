@@ -48,10 +48,10 @@ function Whychooseus() {
           {/* Icon List */}
           <div className="flex flex-col gap-6 pt-4">
             {[
-              { icon: "icon1.png", text: "Experts Only" },
-              { icon: "icon2.png", text: "Meeting Deadlines" },
-              { icon: "icon3.png", text: "Award-Winning Projects" },
-              { icon: "icon3.png", text: "Attention to Detail" },
+              { icon: "experts_only.svg", text: "Experts Only" },
+              { icon: "meeting_deadline.svg", text: "Meeting Deadlines" },
+              { icon: "award_winning.svg", text: "Award-Winning Projects" },
+              { icon: "attention_to_detail.svg", text: "Attention to Detail" },
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-4">
                 <img src={item.icon} alt={`Icon ${index + 1}`} className="w-10 h-10 object-contain" />
