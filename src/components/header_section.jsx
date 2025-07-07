@@ -130,7 +130,7 @@ function Header_section() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative h-screen-max sm:h-[80vh] overflow-hidden">
+    <div className="relative h-screen-max sm:h-[80vh] md:h-[80vh] lg:h-[80vh] overflow-hidden">
       {/* 🔽 Mobile Gradient Background */}
       <div className="absolute z-[-1] sm:hidden w-full h-[700px] top-0 left-0" style={{ background: "linear-gradient(90deg, #2CB6DB7D 0%, #20A1A3 100%)" }} />
 
@@ -151,7 +151,7 @@ function Header_section() {
 
       {/* NAVIGATION */}
       <nav className="relative z-10 w-full">
-        <div className="flex w-full px-4 sm:px-6 lg:px-8 xl:px-12 py-6 items-center justify-between">
+        <div className="flex w-full px-4 sm:px-6 lg:px- xl:px-12 py-6 items-center justify-between">
           {/* Logo Area */}
 <div className="flex items-center justify-start ml-4 sm:ml-10 md:ml-20 lg:ml-40 xl:ml-60">
             <div className="text-left">
