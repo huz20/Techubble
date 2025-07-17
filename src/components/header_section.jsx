@@ -233,7 +233,7 @@ function Header_section() {
 <div className="relative z-10 max-w-7xl px-4 sm:px-6 lg:px-8 xl:px-12 py-12 ml-4 sm:ml-10 md:ml-20 lg:ml-40 xl:ml-60">
         <div className="flex justify-start ">
           <div className="text-left space-y-6 w-full max-w-4xl">
-            <h2 className="font-montserrat font-semibold text-2xl sm:text-2xl lg:text-2xl leading-tight text-headertext ">
+            <h2 className="font-montserrat font-semibold text-4xl sm:text-4xl lg:text-2xl leading-tight text-headertext ">
               Next Gen Software <br /> Services to <br /> Businesses
             </h2>
             <p className="font-montserrat font-normal text-[24px] lg:text-[24px] leading-[133%] tracking-[0%] opacity-80 max-w-2xl">
