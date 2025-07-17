@@ -136,7 +136,7 @@ function Header_section() {
 
       {/* 🔽 Desktop Gradient Background */}
       <div
-        className="absolute z-[-1] hidden sm:block transition-all duration-300"
+        className="absolute z-[-1] hidden sm:block lg:hidden transition-all duration-300"
         style={{
           width: "130vw",
           height: "100vh",
