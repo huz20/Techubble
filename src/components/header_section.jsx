@@ -158,7 +158,7 @@ function Header_section() {
               <h1 className="text-blue-500 text-2xl sm:text-2xl md:text-2xl lg:text-2xl font-[Poppins] font-extrabold leading-tight">
                 TecHubble
               </h1>
-              <p className="text-black font-light text-xs sm:text-sm mt-1 ml-1">
+              <p className="text-black font-light text-xs lg:text-sm mt-1 ml-1">
                 Private Limited
               </p>
             </div>
@@ -176,7 +176,7 @@ function Header_section() {
         <Link
           to={item.path}
           key={item.label}
-          className="font-montserrat font-semibold text-sm xl:text-base text-lg:text-base uppercase cursor-pointer hover:text-blue-500 transition"
+          className="font-montserrat font-semibold text-sm lg:text-sm  uppercase cursor-pointer hover:text-blue-500 transition"
         >
           {item.label}
         </Link>
@@ -184,7 +184,7 @@ function Header_section() {
 
       <Link
         to="/contact"
-        className="text-blue-600 font-semibold text-sm xl:text-base 2xl:text-lg px-4 xl:px-6 py-2 xl:py-3 rounded-xl shadow-lg bg-gray-100 uppercase hover:bg-white hover:shadow-xl transition-all duration-200 transform hover:scale-105"
+        className="text-blue-600 font-semibold text-sm lg:text-sm  px-4 xl:px-6 py-2 xl:py-3 rounded-xl shadow-lg bg-gray-100 uppercase hover:bg-white hover:shadow-xl transition-all duration-200 transform hover:scale-105"
       >
         CONTACT US
       </Link>
@@ -236,11 +236,11 @@ function Header_section() {
             <h2 className="font-montserrat font-semibold text-4xl sm:text-4xl lg:text-4xl leading-tight text-headertext ">
               Next Gen Software <br /> Services to <br /> Businesses
             </h2>
-            <p className="font-montserrat font-normal text-[24px] leading-[133%] tracking-[0%] opacity-80 max-w-2xl">
+            <p className="font-montserrat font-normal text-[24px] lg:text-[24px] leading-[133%] tracking-[0%] opacity-80 max-w-2xl">
               Amet minim mollit non deserunt ullamco<br /> est sit aliqua dolor do amet sint. Velit<br /> officia consequat duis enim velit mollit.
             </p>
 
-            <button className="font-montserrat bg-lightblue text-white text-sm px-6 py-3 rounded-4xl transition flex items-center gap-2">
+            <button className="font-montserrat bg-lightblue text-white text-sm lg:text-sm px-6 py-3 rounded-4xl transition flex items-center gap-2">
               Get Started <img src="arrow_right_white.svg" alt="arrow" />
             </button>
 
